@@ -1,0 +1,25 @@
+/*you have to have .woff/.woff2 or some other font
+font extention file loaded into src folder and then
+you cas use a @font-face declaration to incorporate 
+the font file*/
+/* @font-face {
+
+    font-family: 'MyFont';
+  
+    src: url('./my-font.woff2') format('woff2'),
+  
+      url('./my-font.woff') format('woff');
+  
+    font-weight: 600;
+  
+    font-style: normal;
+  
+  } */
+  
+  
+
+.hello {
+    color: red;
+    background: url('./icon.png');
+    /* font-family: 'MyFont'; */
+}
