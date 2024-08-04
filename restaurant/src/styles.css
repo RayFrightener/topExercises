@@ -1,0 +1,21 @@
+header {
+    text-align: 'center';
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #f0f0f0;
+}
